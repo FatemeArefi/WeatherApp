@@ -216,6 +216,36 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+
+  #weather {
+    width: 95%;
+    max-width: 500px;
+  }
+
+  #forecast div {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  #search {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #search input,
+  #search button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  #location {
+    width: 35px;
+  }
+}
+
 @media (max-width: 320px) {
   body {
     width: 100%;
